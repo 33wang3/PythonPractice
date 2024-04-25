@@ -1,0 +1,90 @@
+# # # print('I hope everyone is enjoying the Python Challenge.\nAre you ?') # line break
+# # # print('Days\tTopics\tExercises') # adding tab space or 4 spaces 
+# # # print('Day 1\t3\t5')
+# # # print('Day 2\t3\t5')
+# # # print('Day 3\t3\t5')
+# # # print('Day 4\t3\t5')
+# # # first_name = 'Asabeneh'
+# # # last_name = 'Yetayeh'
+# # # language = 'Python'
+# # # formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
+# # # print(formated_string)
+# # radius = 10
+# # pi = 3.14
+# # area = pi * radius ** 2
+# # formated_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area)
+# # print(formated_string)
+# # a = 4
+# # b = 3
+# # print(f'{a} + {b} = {a +b}')
+# # language = 'Python'
+# # a,b,c,d,e,f = language 
+# # print(a) # P
+# # print(b) # y
+# # print(c) # t
+# # print(d) # h
+# # print(e) # o
+# # print(f) # n
+# # language = 'Python'
+# # last_letter = language[-1]
+# # print(last_letter) # n
+# # second_last = language[-2]
+# # print(second_last) # o
+# # greeting = 'Hello, World!'
+# # # print(greeting[::-1])
+# # challenge = 'thirty days of python'
+# # print(challenge.find('y'))
+# # from ntpath import join
+# # challenge = 'thirty days of python'
+# # print(challenge.rfind('th')) 
+# # challenge = 'thirty days of python'
+# # sub_string = 'da'
+# # print(challenge.rindex(sub_string))
+# # challenge = '\u00B2'
+# # print(challenge)
+# # # web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+# # # result = ' '.join(web_tech)
+# # print(result) 
+# # challenge = 'thirty days of pythoonnn'
+# # print(challenge.strip('noth'))
+# from email.headerregistry import ContentTransferEncodingHeader
+
+
+# Q1=['Thirty','Days','Of','Python']
+# result_q1 = ' '.join (Q1)
+# print(result_q1)
+# Q3 = "Coding For All"
+# print(Q3)
+# print(len(Q3))
+# print(Q3.upper())
+# print(Q3.lower())
+# print(Q3.capitalize())
+# print(Q3.title())
+# print(Q3.swapcase())
+# print(Q3.index('Coding'))
+# print(Q3.find('Coding'))
+# slicedQ3= Q3[0:3]
+# print(slicedQ3)
+# print(Q3.replace('All','Everyone'))
+# Q25 = 'You cannot end a sentence with because because because is a conjunction'
+# print(Q25.find('because'))
+# print(Q25.rfind('because'))
+# print(len('because'))
+# slicedQ25 = Q25[0:30] + Q25[54:-1]
+# print(slicedQ25)
+# Q30 = 'Coding For All'
+# print(Q30.strip(' '))
+# Q31='30DaysOfPython'
+# print(Q31.isidentifier())
+# # print(Q30.startswith('Coding'))
+print('I am enjoying this challenge.\nI just wonder what is next.')
+print('Name\tAge\tCountry\tCity')
+radius = 10
+area = 3.14 * radius ** 2
+formated_areat ='The area of a circle with a radius {} is {}.'.format(radius,area)
+print(formated_areat)
+a=8
+b=6
+print('{}+{}={}'.format(8,6,14))
+print('{}*{}={}'.format(a,b,a*b))
+print('{}**{}={}'.format(a,b,a**b))

@@ -1,0 +1,18 @@
+from datetime import datetime
+current = datetime.now()
+print(current)
+hour = current.hour
+print(hour)
+
+time_format = current.strftime('%m/%d/%Y,%H:%M:%S')
+print(time_format)
+
+Today = '5 December,2019'
+date_formatted = datetime.strptime(Today,'%d %B,%Y')
+print(date_formatted)
+
+Newyear = datetime(year=2023,month=1,day=1)
+left = Newyear - current
+print(left)
+current.timestamp
+print(current)
